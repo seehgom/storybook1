@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install && npm install -g @angular/cli@latest && ng add angular-playground && npm run build
+  - init: npm install && npm run build
     command: npm run start
